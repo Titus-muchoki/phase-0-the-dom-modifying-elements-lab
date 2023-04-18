@@ -6,7 +6,25 @@
   <script type="application/javascript">
   </script>
   <body>
+    <main id="main">
+      <h1>Poodles!</h1>
+      <h3>
+        An Essay into the Pom-Pom as Aesthetic Reconfiguration of the Other from a
+        post-Frankfurt School Appropriationist Perspective
+      </h3>
+      <p><em>By: Byron Q. Poodle, Esq., BA.</em></p>
+    </main>
     <main id="main"></main>
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="index.js">
+      const ul = document.createElement("ul");
+
+for (let i = 0; i < 3; i++) {
+  const li = document.createElement("li");
+  li.textContent = (i + 1).toString();
+  ul.append(li);
+}
+
+element.append(ul);
+    </script>
   </body>
 </html>
